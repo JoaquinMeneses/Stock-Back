@@ -6,6 +6,10 @@ const schema = new Schema(
       type: String,
       required: true,
     },
+    lastname: {
+      type: String,
+      required: true,
+    },
     email: {
       type: String,
       required: true,
@@ -14,19 +18,21 @@ const schema = new Schema(
       type: String,
       required: true,
     },
+    photo: {
+      type: String,
+      required: true,
+    },
     role: {
       type: Number,
       required: true,
     },
-    is_online: {
-      type: Boolean,
+    dob: {
+      type: Number,
       required: true,
     },
-    is_verified: {
-      type: Boolean,
-    },
-    verificationCode: {
-      type: Number,
+    phone: {
+      type: String,
+      required: true,
     },
   },
   {
